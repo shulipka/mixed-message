@@ -1,0 +1,114 @@
+body {
+    font-family: 'Special Elite', cursive, sans-serif;
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    color: white;
+    margin: 0;
+    padding: 30px;
+}
+
+div {
+    display: block;
+}
+
+nav {
+    overflow: hidden;
+    padding: 10px 20px;
+    margin-bottom: 0px;
+}
+
+nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.logo {
+    float: left;   
+    text-align: center; 
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.img-logo {
+    height: 40px;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.social {
+    height: 30px;
+}
+
+.social:hover {
+    height: 25px;
+}
+
+.nav-right {
+    color: white;
+    vertical-align: middle;
+    float: right;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.nav-right a {
+    vertical-align: middle;
+    margin-top: 5px;
+    padding-left: 50px;
+}
+
+.blue {
+    background-color: rgb(0, 87, 184);
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    height: 200px;
+}
+
+.war-info {
+    width: 50%;
+    text-align: center;
+}
+
+.support {
+    width: 50%;
+    text-align: center;
+}
+
+.yellow {
+    background-color: rgb(255, 215, 0);
+    margin: 0;
+    padding: 30px;
+    height: 200px;
+    display: flex;
+}
+
+.quote {
+    width: 50%;
+    text-align: center;
+
+}
+
+.button {
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
